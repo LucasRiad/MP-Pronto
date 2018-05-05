@@ -1,0 +1,81 @@
+body {
+    background-color:cornflowerblue ;
+    background: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/superhero-city-background-4.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:dodgerblue;
+    font-size: 1.3rem;
+}
+.container{
+    overflow: hidden;   
+ float: bottom;    
+position: center;
+  
+}
+
+.tab{
+    float:left;
+}
+
+.DinamicTable{
+    margin:auto;
+
+
+}
+.DinamicTable2{
+    float:right;
+    margin:auto;
+}
+
+.DinamicTable input{
+    display: block;
+    margin:auto
+
+}
+.DinamicTable button{
+    margin:auto;
+}
+
+tr:hover{
+    background-color:rgb(139, 192, 245);
+    cursor: pointer;
+}
+.icon {
+    display: inline-block;
+    width: 2px;
+    height: 3px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  h1 {
+	margin-top: 12rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: var(--righteous-font);
+}
+:root {
+	--righteous-font: 'Righteous', cursive;
+}
+.input-group-text {
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    
+}
+.th{
+    padding:4px;
+    border: darkblue;
+}
+.table td, .table th {
+    padding: 5px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.input-group-prepend input {
+    margin-left:3px; 
+    margin-right: 3px;
+}
